@@ -23,8 +23,20 @@ class HomeViewController: UIViewController {
         homeFeedTable.delegate = self
         homeFeedTable.dataSource = self
         
+        configureNavbar()
+        
         let headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 350))
         homeFeedTable.tableHeaderView = headerView
+    }
+    
+    private func configureNavbar() {
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "n.circle.fill"), style: .done, target: self, action: nil)
+        
+        navigationItem.rightBarButtonItems = [
+            UIBarButtonItem(image: UIImage(systemName: "person"), style: .done, target: self, action: nil),
+            UIBarButtonItem(image: UIImage(systemName: "play.rectangle"), style: .done, target: self, action: nil)
+        ]
+        navigationController?.navigationBar.tintColor = .white
     }
     
     override func viewDidLayoutSubviews() {
