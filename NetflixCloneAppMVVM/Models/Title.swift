@@ -1,17 +1,17 @@
 //
-//  Tv.swift
+//  Movie.swift
 //  NetflixCloneAppMVVM
 //
-//  Created by Américo MQ on 02/03/22.
+//  Created by Américo MQ on 01/03/22.
 //
 
 import Foundation
 
-struct TrendingTvResponse: Codable {
-    let results: [Tv]
+struct TrendingTitleResponse: Codable {
+    let results: [Title]
 }
 
-struct Tv: Codable {
+struct Title: Codable {
     let id: Int
     let media_type: String?
     let original_name: String?
