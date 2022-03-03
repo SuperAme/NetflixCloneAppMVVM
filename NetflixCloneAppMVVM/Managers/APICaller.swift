@@ -31,7 +31,6 @@ class APICaller {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
 //                let results = try JSONSerialization.jsonObject(with: data, options: .fragmentsAllowed)
-                print(results.results[0])
             } catch {
                 completion(.failure(error))
             }
@@ -49,7 +48,7 @@ class APICaller {
             
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                print(results.results[0])
+                completion(.success(results.results))
             } catch {
                 completion(.failure(error))
             }
@@ -67,7 +66,7 @@ class APICaller {
             
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                print(results)
+                completion(.success(results.results))
             } catch {
                 completion(.failure(error))
             }
@@ -85,7 +84,7 @@ class APICaller {
             
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                print(results)
+                completion(.success(results.results))
             } catch {
                 completion(.failure(error))
             }
@@ -103,7 +102,7 @@ class APICaller {
             
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                print(results)
+                completion(.success(results.results))
             } catch {
                 completion(.failure(error))
             }
