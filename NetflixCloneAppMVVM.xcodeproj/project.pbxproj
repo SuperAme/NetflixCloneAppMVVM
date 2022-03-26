@@ -28,6 +28,8 @@
 		9C89B14627C826FA009D9A64 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89B14527C826FA009D9A64 /* DownloadsViewController.swift */; };
 		9C91808A27CAE40400FBA15E /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C91808927CAE40400FBA15E /* CollectionViewTableViewCell.swift */; };
 		9C9514B527E65E98008700CC /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9514B427E65E98008700CC /* SearchResultsViewController.swift */; };
+		9CB798BD27EFAE4F001AB065 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB798BC27EFAE4F001AB065 /* TitlePreviewViewController.swift */; };
+		9CB798BF27EFB154001AB065 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB798BE27EFB154001AB065 /* TitlePreviewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		9C89B14527C826FA009D9A64 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		9C91808927CAE40400FBA15E /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		9C9514B427E65E98008700CC /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		9CB798BC27EFAE4F001AB065 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		9CB798BE27EFB154001AB065 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				9C18AE4A27D91F7F005C9D3E /* TitleViewModel.swift */,
+				9CB798BE27EFB154001AB065 /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				9C9514B427E65E98008700CC /* SearchResultsViewController.swift */,
+				9CB798BC27EFAE4F001AB065 /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 				9C3DE60227D03151009085FE /* Extensions.swift in Sources */,
 				9C86501C27ED3F3F001AFECD /* YoutubeSearchResponse.swift in Sources */,
 				9C89B12D27C82466009D9A64 /* SceneDelegate.swift in Sources */,
+				9CB798BF27EFB154001AB065 /* TitlePreviewViewModel.swift in Sources */,
 				9C89B14227C826D1009D9A64 /* UpcomingViewController.swift in Sources */,
+				9CB798BD27EFAE4F001AB065 /* TitlePreviewViewController.swift in Sources */,
 				9C3DE60027CEE8A7009085FE /* Title.swift in Sources */,
 				9C89B14027C826B1009D9A64 /* HomeViewController.swift in Sources */,
 				9C18AE4B27D91F7F005C9D3E /* TitleViewModel.swift in Sources */,
